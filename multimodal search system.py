@@ -93,7 +93,7 @@ def print_query_results(query_list: list, query_results: dict) -> None:
 
 
 # It is possible to submit multiple queries at the same time, just add to the list.
-query_texts = ["food with carrots", "lion"]
+query_texts = ["food with carrots"]
 
 # Query vector db - return 3 results
 query_results = collection.query(
